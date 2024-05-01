@@ -1,0 +1,4 @@
+zeroc-ice
+SQLAlchemy
+configparser
+psycopg2

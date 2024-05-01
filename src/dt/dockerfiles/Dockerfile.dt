@@ -1,0 +1,8 @@
+FROM python:3
+ADD *.py /
+ADD digitaltwin/*.py /digitaltwin/
+ADD dt.config /
+ADD requirements.txt /
+RUN pip install -r requirements.txt
+
+CMD [ "python3", "./dt.py" ]

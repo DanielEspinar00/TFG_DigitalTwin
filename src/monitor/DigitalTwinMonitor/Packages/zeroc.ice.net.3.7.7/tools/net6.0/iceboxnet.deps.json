@@ -1,0 +1,94 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "iceboxnet/3.7.7": {
+        "dependencies": {
+          "Ice": "3.7.7",
+          "IceBox": "3.7.7",
+          "IceSSL": "3.7.7",
+          "Microsoft.SourceLink.GitHub": "1.1.0-beta-20204-02"
+        },
+        "runtime": {
+          "iceboxnet.dll": {}
+        }
+      },
+      "Microsoft.Build.Tasks.Git/1.1.0-beta-20204-02": {},
+      "Microsoft.SourceLink.Common/1.1.0-beta-20204-02": {},
+      "Microsoft.SourceLink.GitHub/1.1.0-beta-20204-02": {
+        "dependencies": {
+          "Microsoft.Build.Tasks.Git": "1.1.0-beta-20204-02",
+          "Microsoft.SourceLink.Common": "1.1.0-beta-20204-02"
+        }
+      },
+      "Ice/3.7.7": {
+        "runtime": {
+          "Ice.dll": {}
+        }
+      },
+      "IceBox/3.7.7": {
+        "dependencies": {
+          "Ice": "3.7.7"
+        },
+        "runtime": {
+          "IceBox.dll": {}
+        }
+      },
+      "IceSSL/3.7.7": {
+        "dependencies": {
+          "Ice": "3.7.7"
+        },
+        "runtime": {
+          "IceSSL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "iceboxnet/3.7.7": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Build.Tasks.Git/1.1.0-beta-20204-02": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T7mMbmgoT3XXKrXbLeEj6D9fQLZDmF/T8W5NQsrlcfQ24nOLrkr1Cst9cmI44zIH16rIo+4ws0tEqUN+Jw5Iag==",
+      "path": "microsoft.build.tasks.git/1.1.0-beta-20204-02",
+      "hashPath": "microsoft.build.tasks.git.1.1.0-beta-20204-02.nupkg.sha512"
+    },
+    "Microsoft.SourceLink.Common/1.1.0-beta-20204-02": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3tLuYVu7iPSUGVgSygxZnN4q6ZdXFbKd2A/1Zgva5i6VMoVXoTJwggKVZTGyemlWriziOwY76I5MZI+vnJ8ztA==",
+      "path": "microsoft.sourcelink.common/1.1.0-beta-20204-02",
+      "hashPath": "microsoft.sourcelink.common.1.1.0-beta-20204-02.nupkg.sha512"
+    },
+    "Microsoft.SourceLink.GitHub/1.1.0-beta-20204-02": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nVB0LiCn+q0eprqpQ9BeZ6xMdIobiRTwZlrvyAYDv4Zprek5BUHJ8usXUEtJlCTqQYF5HvLgvwf361jCkhmXCg==",
+      "path": "microsoft.sourcelink.github/1.1.0-beta-20204-02",
+      "hashPath": "microsoft.sourcelink.github.1.1.0-beta-20204-02.nupkg.sha512"
+    },
+    "Ice/3.7.7": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IceBox/3.7.7": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IceSSL/3.7.7": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

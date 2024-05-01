@@ -1,0 +1,5 @@
+FROM postgres:latest
+ENV POSTGRES_PASSWORD=testpassword1234
+ENV POSTGRES_USER=postgres
+ENV POSTGRES_DB=tfg_history
+
